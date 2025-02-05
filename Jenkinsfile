@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("amritasaxena/Krishna123")
+        app = docker.build("Amrita-GitHub/devops")
     }
 
     stage('Test image') {
